@@ -1,0 +1,14 @@
+.header{
+    @include tablet{
+        display: none;
+    } 
+    @include mobile{
+        display: none;
+    }
+    @include ipad{
+        display: none;
+    }
+    @media (min-width:1169px){
+        
+    }
+}

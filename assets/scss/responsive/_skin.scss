@@ -1,0 +1,25 @@
+.banner-content{
+    .container{
+        @include tablet {
+            margin: 0;
+        }
+        @include ipad {
+            margin: 0;
+        }
+        @include mobile {
+            margin: 0;
+        }
+    }
+}
+.sub-title-heading {
+    
+    @include tablet {
+        margin-bottom: 16px;
+    }
+    @include ipad {
+        margin-bottom: 12px;
+    }
+    @include mobile {
+        margin-bottom: 6px;
+    }
+}
